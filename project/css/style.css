@@ -1,0 +1,661 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	background-color: white;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+
+}
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;	
+}
+
+.logo a{
+	position: absolute;
+	background: #fff;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    left: 50px;
+     
+}
+.upper_nav li{
+	display: inline-block;
+}
+
+.upper_nav{
+	text-align: center;
+	font-size: 15px;
+	padding: 15px;	
+	font-weight: 500;
+	color: #959ca1;
+	background-color: #f1f1f1;
+
+}
+.hyd, .join{
+	color: #46515b;
+	font-weight: 800;
+}
+
+.right{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+.nav{
+	display: flex;
+	align-items: center;
+}
+.call_us{
+	position: relative;
+	display: flex;
+	align-items: center;
+	background-color: #eaf7e8;
+	padding: 20px;
+	border-radius: 25px;
+}
+.phone{
+	position: absolute;
+    top: 14px;
+    left: -11px;
+}
+
+.navbar li span{
+	font-size: 18px;
+	color: #204d1a;
+	display: flex;
+	align-items: center;
+}
+ .navbar ul li a:hover{
+    border-bottom: 5px solid #3891b7 ;
+   /* padding:10px 0px;*/
+    color: #3891b7;
+}
+.navbar li span b{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.fa-whatsapp{
+
+	color: #54b447;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.navbar{
+margin-left: 250px;
+
+}
+.navbar ul{
+	display: flex;
+	align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.navbar li a{
+	text-decoration: none;
+	padding: 0px 33px;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+.banner{
+	margin-top: 120px;
+}
+.backposter{
+	background-image: url(../images/bnrbg.png);
+	width: 100%;
+	height: 710px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.container_1{
+	    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lefttext{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 285px;
+	margin-left: 170px;
+
+}
+.lefttext .start{
+	font-size: 66px;
+	font-weight: 600;
+}
+.lefttext .start .int{
+	color: #b1f9a7;
+	font-weight: 800;
+}
+.talking-audience{
+
+}
+.form{
+    width: 500px;
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+   
+}
+.instructer{
+	font-size: 30px;
+	font-weight: 800;
+}
+.num{
+	font-size: 24px;
+	font-weight: 600;
+}
+.form input{
+	padding: 30px 120px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.form [type="submit"]{
+	background-color: #53b44c;
+	color: white;
+	font-size: 15px;
+	border-radius: 20px;
+}
+.container_2{
+	width: 1400px;
+	margin: 0 auto;
+}
+.section{
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+}
+.data{
+	text-align: center;
+	margin-top: 105px;
+}
+.data span{
+	font-size: 40px;
+	font-weight: 800;
+
+}
+.data p{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+.earn_money, .join_community, .expand_your_reach, .inspire_students{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #ffffff;
+	width: 635px;
+	height: 275px;
+	border-radius: 15px;
+	margin: 15px;
+}
+.icon, .icon_1, .icon_2, .icon_3{
+
+	width: 160px;
+	height: 160px;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+}
+.icon{
+	background-image: url(../images/money.png);
+	background-position: bottom;
+	background-color: #b4e4cc;
+}
+.icon_1{
+	background-image: url(../images/community.png);
+	background-position: center;
+	background-color: #d2e3ff;
+}
+.icon_2{
+	background-image: url(../images/connection.png);
+	background-position: center;
+	background-color: #ffece6;
+}
+.icon_3{
+	background-image: url(../images/creativity.png);
+	background-position: bottom;
+	background-color: #f0ffca;
+}
+.details{
+	text-align: left;
+	width: 360px;
+	height: 145px;
+
+}
+.details span, .caption span {
+	font-size: 20px;
+	font-weight: 800;
+	color: #3891b7;
+}
+.details p, .caption p{
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 20px;
+	color: #515151;
+}
+.offers{
+	margin-top: 140px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.apply_button{
+	text-align: center;
+}
+.apply_button button{
+	background-image: linear-gradient(90deg, #e89c3b 0%, #e06153 100%);
+	color: white;
+	border: 2px solid #f5f5f5;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 30px 120px;
+	margin-top: 80px;
+	border-radius: 10px;
+	margin-bottom: 100px;
+}
+.fig{
+	background-image: url(../images/classroom.png);
+	 width: 120px;
+    height: 120px;
+	background-color: #b5d3e5;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 150px 0px 0px 150px;
+	position: absolute;
+    top: -59px;
+    left: 81px;
+}
+.number span{
+	font-size: 170px;
+	font-weight: 800;
+	color: #cee2ee;
+}
+.training{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading p{
+	font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 70px;
+}
+.modes{
+	display: flex;
+	align-items: center;
+	background-color:#cee2ee ;
+	border-radius: 25px;
+	width: 610px;
+	height: 200px;
+	margin: 18px;
+}
+.ads{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.form2{
+	display: flex;
+	flex-direction: column;
+	
+	margin-left: 158px;
+	border-radius: 20px;
+	background-color: white;
+	width: 500px;
+	height: 1100px;
+
+	align-items: center;
+    justify-content: space-evenly;
+}
+.longform{
+
+	display: flex;
+	flex-direction: column;
+    align-items: center;	
+}
+.section_2{
+	display: flex;
+	align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #e1f0f4;
+    padding-bottom: 150px;
+    
+}
+.longform input{
+	padding: 26px 100px;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 10px;
+}
+ .longform input::placeholder{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.form-sub{
+    width: 420px;
+    height: 70px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #e89c3b 0%, #e06153 100%);
+
+}
+
+.lets span{
+	font-size: 30px;
+	font-weight: 800;
+	padding: 20px;
+	margin-top: 30px;
+	color: #cd2a2a;
+}
+.lets p{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+}
+.sec{
+	display: flex;
+    flex-direction: column;
+}
+.four{
+	display: flex;
+	flex-direction: column;
+}
+.number{
+	height: 200px;
+	margin-top: 35px;
+}
+
+.triangle{
+	width: 0; 
+  	height: 0; 
+    border-top: 96px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 16px solid transparent;
+    border-right: 200px solid #b5d3e5;
+    position: relative;
+    border-radius: 110px 22px 22px 30px;
+
+}
+.section_3{
+	display: flex;
+	justify-content: center;
+	background-color: #ded5d0;
+	height: 550px;
+
+}
+.last{
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+.are{
+	text-align: center;
+}
+.are span{
+	font-size: 50px;
+	font-weight: 800;
+	padding: 35px;
+	margin-bottom: 38px;
+
+}
+.are p{
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+
+}
+.become button{
+	font-size: 18px;
+	font-weight: 800;
+	color: white;
+	background-color: #47b457;
+	padding: 24px;
+	border-radius: 25px;
+	border: 2px solid white;
+	margin-top: 80px;
+}
+.teacher_left {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+.teacher{
+	position: absolute;
+	width: 660px;
+	height: 750px;
+	top: -200px;
+    left: 2px;
+
+}
+.pay{
+	display: flex;
+	flex-direction: column;
+}
+.footer{
+	background-color: #141a1e ;
+	padding-bottom: 150px;
+}
+.footertext{
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.column{
+	margin-top: 90px;
+}
+.column li{
+	list-style: none;
+	/*margin: 10px;*/
+	color: white;
+	line-height: 32px;
+}
+.column h4 {
+	color: #21bbe1 ;
+}
+.download button{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px;
+	color: #21bbe1;
+	padding: 18px 35px;
+	background-color: #141a1e;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+.directly button{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px;
+	color: white;
+	padding: 20px 80px;
+	background-color: #3ba02b;
+	border-radius: 25px;
+}
+.finallogo{
+	margin-top: 68px;
+	background-color:  #141a1e;
+	padding: 30px;
+}
+.social li a i{
+	
+	color: #60717c;
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+	border-radius: 75px;
+}
+.social ul{
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+}
+.copy{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy div{
+	font-size: 18px;
+	color: #61717c;
+	font-weight: 500;
+	padding: 35px;
+}
+.section_4{
+	background-color: #23292d;
+}
+.social li {
+	background-color: #23292d;
+	border-radius: 30px;
+	
+	
+}
